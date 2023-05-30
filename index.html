@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#education" style="--i:3;">Education</a>
+            <a href="#projects" style="--i:4;">Projects</a>
+            <a href="#moocs" style="--i:5;">MOOCs</a>
+            <a href="blog.html" style="--i:5;">Blog</a>
+            <!-- <a href="#"></a> -->
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Deepak Kumar Sundram</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>A highly motivated and accomplished B.Tech student specializing in Computer
+                Science and Engineering with a focus on Machine Learning and Cloud Development. Currently pursuing my degree at the
+                Institute of Engineering & Management in Kolkata, India, I have consistently maintained a remarkable
+                CGPA of 9.71.</p>
+            <div class="social-media">
+                <a href="https://linkedin.com/in/deepak-kumar-sundram" style="--i:7;"><i
+                        class='bx bxl-linkedin bx-tada'></i></a>
+                <a href="https://github.com/dkssundram" style="--i:8;"><i class='bx bxl-github bx-tada'></i></a>
+                <a href="mailto:dkssundram@gmail.com" style="--i:9;"><i class='bx bxl-gmail bx-tada'></i></a>
+                <a href="https://www.codechef.com/users/dkssundram" style="--i:10;"><i class='bx bx-code bx-tada'></i></a>
+                
+            </div>
+            <a href="Resume/Deepak Kumar Sundram.pdf" class="btn1">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/Untitled_design-removebg-preview.png" alt="Photo" width="450px">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>About</span> me </h1>
+
+        <div class="row">
+
+            <div class="info">
+                <h3> <span> Name : </span> Deepak kumar Sundram </h3>
+                <h3> <span> Age : </span> 22 </h3>
+                <h3> <span> Qualification : </span> B.Tech </h3>
+                <h3> <span> Stream : </span> Computer Science & Engineering (IoTCSBT) </h3>
+                <h3> <span> College : </span> Institute of Engineering and Management </h3>
+                <h3> <span> Language : </span> English, Hindi </h3>
+            </div>
+
+            <div class="counter">
+
+                <div class="box">
+                    <span>3+</span>
+                    <h3>Coding language<br>(C, C++, SQL)</h3>
+                </div>
+
+                <div class="box">
+                    <span>4+</span>
+                    <h3>Project completed</h3>
+                </div>
+
+                <div class="box">
+                    <span>10+</span>
+                    <h3>MOOCs Done</h3>
+                </div>
+
+                <div class="box">
+                    <span>1st</span>
+                    <h3>Round qualified in eureka</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+
+        <h1 class="heading"> My <span>Education</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2016</span>
+                <h3>AISSE</h3>
+                <p>St. Johns Residential Public School <br> CGPA - 10 CGPA</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2018</span>
+                <h3>AISSCE</h3>
+                <p>The Earth Public School <br>Percentage - 80%</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2024</span>
+                <h3>B.Tech</h3>
+                <p>CSE (IoTCSBT)<br>IEM Kolkata<br>CGPA - 9.71 CGPA</p>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- education section ends  -->
+    <!-- Projects section starts  -->
+    <section class="projects" id="projects">
+        <h1 class="heading"> My <span>Projects</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-diagram-project"></i>
+                <span>01/2023</span>
+                <h3>News-cum-Weather Application</h3>
+                <p>HTML, CSS, JavaScript, ReactJs</p>
+                <p>Built a React app that displays weather information based on the user's geolocation.</p>
+                <p>Integrated an API to fetch and display weather data using Axios.</p>
+                <p>Implemented a newsfeed that allows users to search and read articles.</p>
+                <p> Showcased experience in version control using Git and GitHub.</p>
+                <a href="https://github.com/dkssundram/weathernews"><button class="btn">GitHub Link<i
+                            class="fas fa-download"></i> </button>
+            </div>
+            <a href=""></a>
+            <div class="box">
+                <i class="fas fa-diagram-project"></i>
+                <span>05/2022</span>
+                <h3>Face Recognition Application</h3>
+                <p> Python, OpenCV, Machine Learning</p>
+                <p>Developed a face recognition system using Python and the face recognition module.</p>
+                <p>Utilized OpenCV to load, convert, and process the images.
+                </p>
+                <p>Applied machine learning techniques to compare the face encodings.</p>
+
+                <p> Implemented a user-friendly interface.
+                </p>
+                <a href="https://github.com/dkssundram/face-recognition"><button class="btn">GitHub Link<i
+                            class="fas fa-download"></i> </button>
+            </div>
+            <a href=""></a>
+        </div>
+    </section>
+
+    <section class="moocs" id="moocs">
+
+        <h1 class="heading"> <span>MOOCs</span> Done</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/moocs/front.jpeg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/moocs/cloud.jpeg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/moocs/object.jpeg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/moocs/ordered.jpeg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/moocs/unordered.jpeg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/moocs/iot.jpeg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/moocs/version.jpeg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/moocs/personal.jpeg" alt="">
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; 2023 Deepak Kumar Sundram. All rights reserved.</p>
+      </footer>
+    <!-- <a href="#home" class="top">
+            <img src="images/Untitled.png" width="40px" height="40px" alt="">
+        </a> -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
